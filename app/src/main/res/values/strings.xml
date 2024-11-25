@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SnakeSense</string>
+    <string name="title_activity_image_display">ImageDisplayActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>
