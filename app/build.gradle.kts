@@ -29,6 +29,8 @@ android {
             )
         }
     }
+    
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -72,8 +74,4 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-    // Dependências do TensorFlow Lite
-    implementation(libs.tensorflow.lite) // TensorFlow Lite
-    implementation(libs.tensorflow.lite.support) // Suporte adicional
-    implementation(libs.tensorflow.lite.gpu) // Aceleração de GPU (opcional)
 }

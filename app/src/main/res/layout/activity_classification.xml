@@ -10,25 +10,26 @@
 
     <ImageView
         android:id="@+id/capturedImageView"
-        android:layout_width="415dp"
-        android:layout_height="379dp"
+        android:layout_width="299dp"
+        android:layout_height="192dp"
         android:baselineAlignBottom="true"
         android:foregroundTint="#1C621F"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.289"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.28"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="324dp"
-        android:layout_height="96dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="231dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="88dp"
         android:background="#000000"
         android:fontFamily="serif-monospace"
-        android:text="Gostou da imagem ou deseja tirar outra?"
+        android:text="A cobra é:"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#FFFFFF"
@@ -39,30 +40,39 @@
 
     <Button
         android:id="@+id/btnNewPhoto"
-        android:layout_width="170dp"
+        android:layout_width="209dp"
         android:layout_height="47dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="168dp"
         android:backgroundTint="#1C621F"
         android:drawableEnd="@android:drawable/ic_menu_add"
-        android:text="Nova Foto"
+        android:text="Nova Identificação"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/capturedImageView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="133dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/capturedImageView" />
 
     <Button
-        android:id="@+id/classify_button"
-        android:layout_width="181dp"
-        android:layout_height="47dp"
+        android:id="@+id/inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:backgroundTint="#1C621F"
-        android:drawableEnd="@android:drawable/ic_menu_search"
-        android:text="Identificar"
+        android:text="Inicio"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnNewPhoto"
-        app:layout_constraintVertical_bias="0.172" />
+        app:layout_constraintVertical_bias="0.144" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

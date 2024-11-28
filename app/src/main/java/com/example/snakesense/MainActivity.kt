@@ -7,7 +7,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.provider.MediaStore
 import android.widget.Button
-import com.example.snakesense.ml.TFLiteModel
 
 class MainActivity : AppCompatActivity() {
 
